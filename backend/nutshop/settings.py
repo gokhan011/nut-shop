@@ -89,8 +89,8 @@ DATABASES = {
 
 # Update database configuration from $DATABASE_URL if provided.
 db_url = os.environ.get('DATABASE_URL')
-if db_url:
-    db_from_env = dj_database_url.parse(db_url, conn_max_age=500)
+if db_url and db_url.strip():
+    db_from_env = dj_database_url.parse(db_url.strip(), conn_max_age=500)
     DATABASES['default'].update(db_from_env)
 
 
