@@ -65,8 +65,8 @@ python manage.py runserver
 **API Root:** http://localhost:8000/api/
 
 **Admin Bilgileri:**
-- Kullanıcı: `admin`
-- Şifre: `admin123`
+- Kullanıcı: `gokhant`
+- Şifre: `307Z2597?`
 
 ### Frontend Kurulumu
 
