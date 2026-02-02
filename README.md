@@ -17,7 +17,7 @@ Django backend ve Next.js frontend ile oluşturulmuş kuruyemiş satış platfor
 ## 🛠️ Teknolojiler
 
 **Backend:**
-- Django 6.0.1
+- Django 4.2.x
 - Django REST Framework 3.16.1
 - Django CORS Headers 4.9.0
 - Pillow 12.1.0 (Image processing)
