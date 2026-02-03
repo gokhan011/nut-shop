@@ -1,0 +1,592 @@
+[
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "name": "Almonds",
+      "slug": "almonds",
+      "description": "Premium quality almonds in various forms",
+      "created_at": "2026-02-02 19:20:42.821840"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "Cashews",
+      "slug": "cashews",
+      "description": "Creamy and delicious cashew nuts",
+      "created_at": "2026-02-02 19:20:42.823727"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+      "name": "Walnuts",
+      "slug": "walnuts",
+      "description": "Fresh and crunchy walnuts",
+      "created_at": "2026-02-02 19:20:42.824665"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "name": "Pistachios",
+      "slug": "pistachios",
+      "description": "Green and tasty pistachio nuts",
+      "created_at": "2026-02-02 19:20:42.825514"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+      "name": "Hazelnuts",
+      "slug": "hazelnuts",
+      "description": "Rich and flavorful hazelnuts",
+      "created_at": "2026-02-02 19:20:42.826308"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+      "name": "Pecans",
+      "slug": "pecans",
+      "description": "Sweet and buttery pecan nuts",
+      "created_at": "2026-02-02 19:20:42.827093"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 7,
+    "fields": {
+      "name": "Mixed Nuts",
+      "slug": "mixed-nuts",
+      "description": "Delicious combinations of premium nuts",
+      "created_at": "2026-02-02 19:20:42.827901"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 8,
+    "fields": {
+      "name": "Dried Fruits",
+      "slug": "dried-fruits",
+      "description": "Natural and healthy dried fruits",
+      "created_at": "2026-02-02 19:20:42.828643"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Raw Almonds",
+      "slug": "raw-almonds",
+      "description": "Premium quality raw almonds, perfect for snacking or cooking. Rich in protein, fiber, and healthy fats.",
+      "price": "24.99",
+      "image": "products/raw-almonds.jpg",
+      "stock": 50,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.830631",
+      "updated_at": "2026-02-02 19:21:29.725526",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Roasted Salted Almonds",
+      "slug": "roasted-salted-almonds",
+      "description": "Crunchy roasted almonds with a touch of sea salt. A perfect savory snack.",
+      "price": "26.99",
+      "image": "products/roasted-salted-almonds.jpg",
+      "stock": 45,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.832128",
+      "updated_at": "2026-02-02 19:21:30.068584",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Almond Sliced",
+      "slug": "almond-sliced",
+      "description": "Thinly sliced almonds, ideal for baking and garnishing desserts.",
+      "price": "22.5",
+      "image": "products/almond-sliced.jpg",
+      "stock": 30,
+      "available": true,
+      "weight": "400g",
+      "created_at": "2026-02-02 19:20:42.833236",
+      "updated_at": "2026-02-02 19:23:21.685635",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Honey Roasted Almonds",
+      "slug": "honey-roasted-almonds",
+      "description": "Sweet and crunchy almonds roasted with natural honey. A delightful treat.",
+      "price": "28.99",
+      "image": "products/honey-roasted-almonds.jpg",
+      "stock": 35,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.834569",
+      "updated_at": "2026-02-02 19:21:31.263704",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Raw Cashews",
+      "slug": "raw-cashews",
+      "description": "Creamy and buttery raw cashews. Perfect for snacking or making cashew butter.",
+      "price": "32.99",
+      "image": "products/raw-cashews.jpg",
+      "stock": 40,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.835822",
+      "updated_at": "2026-02-02 19:22:10.579576",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Roasted Cashews",
+      "slug": "roasted-cashews",
+      "description": "Lightly roasted cashews with a rich, nutty flavor. Premium quality.",
+      "price": "34.99",
+      "image": "products/roasted-cashews.jpg",
+      "stock": 38,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.837085",
+      "updated_at": "2026-02-02 19:22:10.903564",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "Salted Cashews",
+      "slug": "salted-cashews",
+      "description": "Perfectly roasted cashews with just the right amount of salt.",
+      "price": "33.5",
+      "image": "products/salted-cashews.jpg",
+      "stock": 42,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.838523",
+      "updated_at": "2026-02-02 19:21:33.407128",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Cashew Pieces",
+      "slug": "cashew-pieces",
+      "description": "Broken cashew pieces, great for cooking and baking at a better value.",
+      "price": "28.99",
+      "image": "products/cashew-pieces.jpg",
+      "stock": 50,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.840102",
+      "updated_at": "2026-02-02 19:23:21.688381",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "name": "Raw Walnuts",
+      "slug": "raw-walnuts",
+      "description": "Fresh California walnuts, packed with omega-3 fatty acids and antioxidants.",
+      "price": "29.99",
+      "image": "products/raw-walnuts.jpg",
+      "stock": 35,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.841303",
+      "updated_at": "2026-02-02 19:23:21.690256",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "name": "Walnut Halves",
+      "slug": "walnut-halves",
+      "description": "Premium walnut halves, perfect for baking and cooking.",
+      "price": "31.99",
+      "image": "products/walnut-halves.jpg",
+      "stock": 30,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.842497",
+      "updated_at": "2026-02-02 19:22:42.216193",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "name": "Walnut Pieces",
+      "slug": "walnut-pieces",
+      "description": "Convenient walnut pieces, ideal for salads and granola.",
+      "price": "27.5",
+      "image": "products/walnut-pieces.jpg",
+      "stock": 40,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.843594",
+      "updated_at": "2026-02-02 19:23:21.691879",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "name": "Roasted Pistachios",
+      "slug": "roasted-pistachios",
+      "description": "Premium Turkish pistachios, roasted to perfection. Rich in flavor.",
+      "price": "36.99",
+      "image": "products/roasted-pistachios.jpg",
+      "stock": 25,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.844641",
+      "updated_at": "2026-02-02 19:21:37.252015",
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "name": "Salted Pistachios",
+      "slug": "salted-pistachios",
+      "description": "Roasted and lightly salted pistachios. Addictively delicious.",
+      "price": "38.99",
+      "image": "products/salted-pistachios.jpg",
+      "stock": 28,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.845689",
+      "updated_at": "2026-02-02 19:23:21.693889",
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "name": "Raw Pistachios",
+      "slug": "raw-pistachios",
+      "description": "Natural raw pistachios without shells. Great for cooking and snacking.",
+      "price": "42.99",
+      "image": "products/raw-pistachios.jpg",
+      "stock": 20,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.846731",
+      "updated_at": "2026-02-02 19:21:38.319612",
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "name": "Raw Hazelnuts",
+      "slug": "raw-hazelnuts",
+      "description": "Fresh hazelnuts with rich, sweet flavor. Perfect for spreads and desserts.",
+      "price": "26.99",
+      "image": "products/raw-hazelnuts.jpg",
+      "stock": 35,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.847744",
+      "updated_at": "2026-02-02 19:21:38.559498",
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "name": "Roasted Hazelnuts",
+      "slug": "roasted-hazelnuts",
+      "description": "Oven-roasted hazelnuts with enhanced nutty flavor and aroma.",
+      "price": "28.99",
+      "image": "products/roasted-hazelnuts.jpg",
+      "stock": 32,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.848756",
+      "updated_at": "2026-02-02 19:22:43.637411",
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "name": "Hazelnut Meal",
+      "slug": "hazelnut-meal",
+      "description": "Finely ground hazelnuts, perfect for baking and gluten-free recipes.",
+      "price": "24.5",
+      "image": "products/hazelnut-meal.jpg",
+      "stock": 25,
+      "available": true,
+      "weight": "400g",
+      "created_at": "2026-02-02 19:20:42.849775",
+      "updated_at": "2026-02-02 19:22:15.021249",
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "name": "Raw Pecans",
+      "slug": "raw-pecans",
+      "description": "Premium American pecans, sweet and buttery. Great for pies and snacking.",
+      "price": "34.99",
+      "image": "products/raw-pecans.jpg",
+      "stock": 30,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.850908",
+      "updated_at": "2026-02-02 19:23:21.695581",
+      "category": 6
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+      "name": "Roasted Pecans",
+      "slug": "roasted-pecans",
+      "description": "Lightly roasted pecans with enhanced flavor and crunch.",
+      "price": "36.99",
+      "image": "products/roasted-pecans.jpg",
+      "stock": 28,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.852187",
+      "updated_at": "2026-02-02 19:22:16.130465",
+      "category": 6
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+      "name": "Candied Pecans",
+      "slug": "candied-pecans",
+      "description": "Sweet glazed pecans, perfect for desserts and holiday treats.",
+      "price": "38.5",
+      "image": "products/candied-pecans.jpg",
+      "stock": 22,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.853356",
+      "updated_at": "2026-02-02 19:21:43.434317",
+      "category": 6
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+      "name": "Deluxe Mixed Nuts",
+      "slug": "deluxe-mixed-nuts",
+      "description": "Premium blend of almonds, cashews, walnuts, and pecans. A perfect mix.",
+      "price": "32.99",
+      "image": "products/deluxe-mixed-nuts.jpg",
+      "stock": 45,
+      "available": true,
+      "weight": "600g",
+      "created_at": "2026-02-02 19:20:42.854491",
+      "updated_at": "2026-02-02 19:21:43.816643",
+      "category": 7
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+      "name": "Roasted Mixed Nuts",
+      "slug": "roasted-mixed-nuts",
+      "description": "Savory roasted nut mix with sea salt. Great for entertaining.",
+      "price": "29.99",
+      "image": "products/roasted-mixed-nuts.jpg",
+      "stock": 50,
+      "available": true,
+      "weight": "600g",
+      "created_at": "2026-02-02 19:20:42.856282",
+      "updated_at": "2026-02-02 19:21:44.100920",
+      "category": 7
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+      "name": "Trail Mix Supreme",
+      "slug": "trail-mix-supreme",
+      "description": "Energizing mix of nuts, seeds, and dried fruits. Perfect for hiking.",
+      "price": "26.99",
+      "image": "products/trail-mix-supreme.jpg",
+      "stock": 40,
+      "available": true,
+      "weight": "600g",
+      "created_at": "2026-02-02 19:20:42.857393",
+      "updated_at": "2026-02-02 19:21:44.326667",
+      "category": 7
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+      "name": "Spicy Mixed Nuts",
+      "slug": "spicy-mixed-nuts",
+      "description": "Zesty blend of nuts with chili and spices. For those who like it hot!",
+      "price": "31.5",
+      "image": "products/spicy-mixed-nuts.jpg",
+      "stock": 35,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.859006",
+      "updated_at": "2026-02-02 19:22:16.578107",
+      "category": 7
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+      "name": "Dried Apricots",
+      "slug": "dried-apricots",
+      "description": "Sweet and tangy Turkish apricots, naturally sun-dried. No added sugar.",
+      "price": "18.99",
+      "image": "products/dried-apricots.jpg",
+      "stock": 45,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.860120",
+      "updated_at": "2026-02-02 19:23:21.697491",
+      "category": 8
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+      "name": "Dried Figs",
+      "slug": "dried-figs",
+      "description": "Plump and sweet dried figs. Rich in fiber and natural sweetness.",
+      "price": "22.99",
+      "image": "products/dried-figs.jpg",
+      "stock": 38,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.861173",
+      "updated_at": "2026-02-02 19:23:21.699158",
+      "category": 8
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+      "name": "Dried Cranberries",
+      "slug": "dried-cranberries",
+      "description": "Tart and sweet cranberries, perfect for baking and snacking.",
+      "price": "16.99",
+      "image": "products/dried-cranberries.jpg",
+      "stock": 50,
+      "available": true,
+      "weight": "400g",
+      "created_at": "2026-02-02 19:20:42.862243",
+      "updated_at": "2026-02-02 19:22:18.137441",
+      "category": 8
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+      "name": "Medjool Dates",
+      "slug": "medjool-dates",
+      "description": "Premium jumbo Medjool dates. Nature's candy, incredibly sweet and soft.",
+      "price": "24.99",
+      "image": "products/medjool-dates.jpg",
+      "stock": 30,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.863572",
+      "updated_at": "2026-02-02 19:21:47.713143",
+      "category": 8
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+      "name": "Dried Mango",
+      "slug": "dried-mango",
+      "description": "Sweet and chewy dried mango slices. A tropical delight.",
+      "price": "19.99",
+      "image": "products/dried-mango.jpg",
+      "stock": 42,
+      "available": true,
+      "weight": "400g",
+      "created_at": "2026-02-02 19:20:42.864685",
+      "updated_at": "2026-02-02 19:21:48.090013",
+      "category": 8
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+      "name": "Raisins Golden",
+      "slug": "raisins-golden",
+      "description": "Plump golden raisins, naturally sweet. Perfect for baking and snacking.",
+      "price": "14.99",
+      "image": "products/raisins-golden.jpg",
+      "stock": 55,
+      "available": true,
+      "weight": "500g",
+      "created_at": "2026-02-02 19:20:42.865694",
+      "updated_at": "2026-02-02 19:21:48.348181",
+      "category": 8
+    }
+  }
+]
