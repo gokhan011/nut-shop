@@ -64,9 +64,11 @@ python manage.py runserver
 **Admin Panel:** http://localhost:8000/admin  
 **API Root:** http://localhost:8000/api/
 
-**Admin Bilgileri:**
-- Kullanıcı: `gokhant`
-- Şifre: `307Z2597?`
+**Admin Kullanıcısı:**
+Admin paneline girmek için kendi yönetici hesabınızı oluşturun:
+```bash
+python manage.py createsuperuser
+```
 
 ### Frontend Kurulumu
 
