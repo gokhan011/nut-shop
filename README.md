@@ -192,4 +192,6 @@ nut_shop/
 
 ## 📄 Lisans
 
-Bu proje demo amaçlıdır. Ticari kullanım için ürün görselleri ve içeriklerini değiştirmeniz önerilir.
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+
+Ürün görselleri ve demo içerikler yalnızca gösterim amaçlıdır ve bu lisans kapsamında değildir. Ticari kullanım için bunları kendi görsel ve içeriklerinizle değiştirmeniz önerilir.
